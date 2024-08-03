@@ -1,0 +1,31 @@
+Contributors:
+Marko	Zika		marko.zika@stud.th-deg.de			22111084
+Litha	Schutte		litha.schutte@stud.th-deg.de			22300472
+Claudia	Gutiérrez	claudia.gutierrez-garcia@stud.th-deg.de		22306322
+Jiaqi	Wu		jiaqi.wu-wang@stud.th-deg.de			22301236
+
+Implementation & Overview:
+
+This Chatbot is implemented with React.js (Frontend) and Node.js (Backend). The chatbot utilises
+keyword spotting to stimulate an intelligent conversation. The keywords are stored in a JSON file
+in a case-based hierarchy to track the different conversation stages. It is possible to add more 
+Keywords by just updating the responses.json file.
+
+Topic:
+Our Chatbot is a car dealership chatbot, designed to answer general questions about the cars that
+the dealership sells and service offerings. It's also possible to make an appointment for a variety
+of things such as a test drive or maintenance services.
+
+
+To locally start the site:
+1. Run npm install in both the server and client directory to install all required dependencies (only necessary for the first time)
+2. Run npm run build in the client directory to create the build folder to be served to the server  
+3. Run npm start in the server folder to start the server - a link to the localhost will be logged in the console
+4. To locally access the chatbot, you can follow the link in the console or run npm start in the client directory (after starting the server) to automatically open the webpage
+
+Secret Key:
+In order to authenticate the sockets, upload your own secret_key.txt file in the server directory that stores the secret key or change the current secret key.
+
+Deployment:
+The live website can be accessed by visiting https://intellidrive.azurewebsites.net
+
