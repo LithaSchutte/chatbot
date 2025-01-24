@@ -27,5 +27,5 @@ Secret Key:
 In order to authenticate the sockets, upload your own secret_key.txt file in the server directory that stores the secret key or change the current secret key.
 
 Deployment:
-The live website can be accessed by visiting https://intellidrive.azurewebsites.net
+The live website can be accessed by visiting https://intellidrive.azurewebsites.net (currently deprecated)
 
